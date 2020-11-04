@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "task": {
+      "home": {
+        "title": "Tasks",
+        "createLabel": "Lisa uus Task",
+        "createOrEditLabel": "Lisa või muuda Task",
+        "notFound": "No Tasks found"
+      },
+      "created": "Uus Task on loodud identifikaatoriga {{ param }}",
+      "updated": "Task identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Task identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Task {{ id }}?"
+      },
+      "detail": {
+        "title": "Task"
+      },
+      "title": "Title",
+      "description": "Description",
+      "job": "Job"
+    }
+  }
+}
