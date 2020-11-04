@@ -1,0 +1,34 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "employee": {
+      "home": {
+        "title": "Employees",
+        "createLabel": "Lisa uus Employee",
+        "createOrEditLabel": "Lisa või muuda Employee",
+        "notFound": "No Employees found"
+      },
+      "created": "Uus Employee on loodud identifikaatoriga {{ param }}",
+      "updated": "Employee identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Employee identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Employee {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "hireDate": "Hire Date",
+      "salary": "Salary",
+      "commissionPct": "Commission Pct",
+      "job": "Job",
+      "manager": "Manager",
+      "department": "Department",
+      "help": {
+        "firstName": "The firstname attribute."
+      }
+    }
+  }
+}
