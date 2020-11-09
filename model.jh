@@ -1,0 +1,56 @@
+entity Device {
+	name String
+    location String
+}
+
+entity ControllerDevice {
+	
+}
+
+entity ActuatorDevice {
+	
+}
+
+entity SensorDevice {
+	
+}
+
+entity Reading {
+    type ReadingType
+    value Double
+    timestamp ZonedDateTime
+}
+
+enum ReadingType {
+    TEMPERATURE, CO2, HUMIDITY
+}
+
+entity CurrentReading {
+    type ReadingType
+    value Double
+    timestamp ZonedDateTime
+}
+
+relationship ManyToOne {
+	Reading{device} to Device
+}
+
+relationship OneToOne {
+	CurrentReading{device} to Device
+}
+
+
+
+
+// Set pagination options
+// paginate JobHistory, Employee with infinite-scroll
+// paginate Job with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+// service all with serviceImpl except Employee, Job
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
