@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "currentReading": {
+      "home": {
+        "title": "Current Readings",
+        "createLabel": "Create a new Current Reading",
+        "createOrEditLabel": "Create or edit a Current Reading",
+        "notFound": "No Current Readings found"
+      },
+      "created": "A new Current Reading is created with identifier {{ param }}",
+      "updated": "A Current Reading is updated with identifier {{ param }}",
+      "deleted": "A Current Reading is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Current Reading {{ id }}?"
+      },
+      "detail": {
+        "title": "Current Reading"
+      },
+      "type": "Type",
+      "value": "Value",
+      "timestamp": "Timestamp",
+      "device": "Device"
+    }
+  }
+}

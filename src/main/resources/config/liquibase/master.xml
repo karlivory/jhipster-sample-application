@@ -14,7 +14,15 @@
     <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201109194254_added_entity_Device.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201109194354_added_entity_ControllerDevice.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201109194454_added_entity_ActuatorDevice.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201109194554_added_entity_SensorDevice.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201109194654_added_entity_Reading.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201109194754_added_entity_CurrentReading.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20201109194654_added_entity_constraints_Reading.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201109194754_added_entity_constraints_CurrentReading.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

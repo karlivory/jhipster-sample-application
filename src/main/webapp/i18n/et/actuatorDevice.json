@@ -1,0 +1,21 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "actuatorDevice": {
+      "home": {
+        "title": "Actuator Devices",
+        "createLabel": "Lisa uus Actuator Device",
+        "createOrEditLabel": "Lisa või muuda Actuator Device",
+        "notFound": "No Actuator Devices found"
+      },
+      "created": "Uus Actuator Device on loodud identifikaatoriga {{ param }}",
+      "updated": "Actuator Device identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Actuator Device identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Actuator Device {{ id }}?"
+      },
+      "detail": {
+        "title": "Actuator Device"
+      }
+    }
+  }
+}

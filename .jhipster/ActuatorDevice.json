@@ -1,0 +1,16 @@
+{
+  "name": "ActuatorDevice",
+  "fields": [],
+  "relationships": [],
+  "changelogDate": "20201109194454",
+  "entityTableName": "actuator_device",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

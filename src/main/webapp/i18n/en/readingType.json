@@ -1,0 +1,10 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "ReadingType": {
+      "null": "",
+      "TEMPERATURE": "TEMPERATURE",
+      "CO2": "CO2",
+      "HUMIDITY": "HUMIDITY"
+    }
+  }
+}
