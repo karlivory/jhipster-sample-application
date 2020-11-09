@@ -1,0 +1,21 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "controllerDevice": {
+      "home": {
+        "title": "Controller Devices",
+        "createLabel": "Create a new Controller Device",
+        "createOrEditLabel": "Create or edit a Controller Device",
+        "notFound": "No Controller Devices found"
+      },
+      "created": "A new Controller Device is created with identifier {{ param }}",
+      "updated": "A Controller Device is updated with identifier {{ param }}",
+      "deleted": "A Controller Device is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Controller Device {{ id }}?"
+      },
+      "detail": {
+        "title": "Controller Device"
+      }
+    }
+  }
+}

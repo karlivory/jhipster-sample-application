@@ -1,0 +1,21 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "actuatorDevice": {
+      "home": {
+        "title": "Actuator Devices",
+        "createLabel": "Create a new Actuator Device",
+        "createOrEditLabel": "Create or edit a Actuator Device",
+        "notFound": "No Actuator Devices found"
+      },
+      "created": "A new Actuator Device is created with identifier {{ param }}",
+      "updated": "A Actuator Device is updated with identifier {{ param }}",
+      "deleted": "A Actuator Device is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Actuator Device {{ id }}?"
+      },
+      "detail": {
+        "title": "Actuator Device"
+      }
+    }
+  }
+}

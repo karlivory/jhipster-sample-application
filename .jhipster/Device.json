@@ -1,0 +1,25 @@
+{
+  "name": "Device",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "location",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201109194341",
+  "entityTableName": "device",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

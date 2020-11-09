@@ -1,0 +1,21 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "sensorDevice": {
+      "home": {
+        "title": "Sensor Devices",
+        "createLabel": "Lisa uus Sensor Device",
+        "createOrEditLabel": "Lisa või muuda Sensor Device",
+        "notFound": "No Sensor Devices found"
+      },
+      "created": "Uus Sensor Device on loodud identifikaatoriga {{ param }}",
+      "updated": "Sensor Device identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Sensor Device identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Sensor Device {{ id }}?"
+      },
+      "detail": {
+        "title": "Sensor Device"
+      }
+    }
+  }
+}

@@ -7,6 +7,12 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Olemid",
+        "device": "Device",
+        "controllerDevice": "Controller Device",
+        "actuatorDevice": "Actuator Device",
+        "sensorDevice": "Sensor Device",
+        "reading": "Reading",
+        "currentReading": "Current Reading",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

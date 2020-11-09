@@ -1,0 +1,21 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "controllerDevice": {
+      "home": {
+        "title": "Controller Devices",
+        "createLabel": "Lisa uus Controller Device",
+        "createOrEditLabel": "Lisa või muuda Controller Device",
+        "notFound": "No Controller Devices found"
+      },
+      "created": "Uus Controller Device on loodud identifikaatoriga {{ param }}",
+      "updated": "Controller Device identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Controller Device identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Controller Device {{ id }}?"
+      },
+      "detail": {
+        "title": "Controller Device"
+      }
+    }
+  }
+}

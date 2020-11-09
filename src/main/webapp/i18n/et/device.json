@@ -1,0 +1,23 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "device": {
+      "home": {
+        "title": "Devices",
+        "createLabel": "Lisa uus Device",
+        "createOrEditLabel": "Lisa või muuda Device",
+        "notFound": "No Devices found"
+      },
+      "created": "Uus Device on loodud identifikaatoriga {{ param }}",
+      "updated": "Device identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Device identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Device {{ id }}?"
+      },
+      "detail": {
+        "title": "Device"
+      },
+      "name": "Name",
+      "location": "Location"
+    }
+  }
+}

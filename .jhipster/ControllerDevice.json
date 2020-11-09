@@ -1,0 +1,16 @@
+{
+  "name": "ControllerDevice",
+  "fields": [],
+  "relationships": [],
+  "changelogDate": "20201109194441",
+  "entityTableName": "controller_device",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

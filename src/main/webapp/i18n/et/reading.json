@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "reading": {
+      "home": {
+        "title": "Readings",
+        "createLabel": "Lisa uus Reading",
+        "createOrEditLabel": "Lisa või muuda Reading",
+        "notFound": "No Readings found"
+      },
+      "created": "Uus Reading on loodud identifikaatoriga {{ param }}",
+      "updated": "Reading identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Reading identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Reading {{ id }}?"
+      },
+      "detail": {
+        "title": "Reading"
+      },
+      "type": "Type",
+      "value": "Value",
+      "timestamp": "Timestamp",
+      "device": "Device"
+    }
+  }
+}

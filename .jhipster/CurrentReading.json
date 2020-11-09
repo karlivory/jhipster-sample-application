@@ -1,0 +1,39 @@
+{
+  "name": "CurrentReading",
+  "fields": [
+    {
+      "fieldName": "type",
+      "fieldType": "ReadingType",
+      "fieldValues": "TEMPERATURE,CO2,HUMIDITY"
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "timestamp",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "device",
+      "otherEntityRelationshipName": "currentReading",
+      "relationshipName": "device",
+      "otherEntityField": "id",
+      "ownerSide": true
+    }
+  ],
+  "changelogDate": "20201109194841",
+  "entityTableName": "current_reading",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
